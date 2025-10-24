@@ -68,4 +68,19 @@ Now, see if you can decode this
 ### https://drive.google.com/drive/folders/1-29GY5-3AOpY9EajDpBND7s8c7qrlrPH?usp=sharing
 ### Who knows, there must be a flag waiting for you :)
 
+# HOW ELSE CAN WE DO THIS INTERESTING?
+
+a) Honestly, this itself can be fine but we can tell them to generate a python code to run this but atleast give them an algorithm and then they can
+chatGPT and then find the code by themselves and then force the values to the code to do this and then get the bytes separately and then combine to give the full flag.
+
+b) Next, remember, every letter is a 8-bit binary value, so imagine if 'C' is a 8-bit letter and the flag is suppose 11 letters, 
+then they would have 88 bits in total for Alice, Bob and Eve and each letter is 8-bits.
+
+So when you're taking ASCII, make sure there is 8-bit value when you're finding out the letter.
+
+
+
+
+
+
 
